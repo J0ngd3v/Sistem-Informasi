@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+    background-image: url(../Gambar/bg-sister.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed ;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.card{
+    max-width: 540px;
+    opacity:0.8;
+    border-radius:20px;
+}
+.card-custome{
+    background-color:black;
+    padding:20px;
+    border-radius:8px;
+    opacity:0.8;
+}
+
+h1#judul {
+    color:red;
+    font-weight:bold;
+    animation-name: JedagJedug;
+    animation-duration: 5s;
+}
+
+@media screen and (min-width: 600px) {
+}
+
+@keyframes JedagJedug {
+    0%{
+        color:white;
+    }
+    50% {
+        color:rgb(247, 134, 134);
+    }
+    100%{
+        color:red;
+    }
+}
